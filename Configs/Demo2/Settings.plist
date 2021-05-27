@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>USE_GOOGLE_MAPS</key>
+	<true/>
+	<key>USE_CUSTOM_LOGGER</key>
+	<false/>
+	<key>GOOGLE_MAPS_API_KEY</key>
+	<string>AIzaSyDt-jUoUnhLLGZsP-XDaX4OGpFJ03LCeM4</string>
+	<key>LAUNCH_DARKLY_KEY</key>
+	<string>mob-16fbb1c2-9489-4aca-a88a-a46229bcd644</string>
+</dict>
+</plist>

@@ -1,0 +1,8 @@
+
+// System defined
+PRODUCT_NAME = WhiteLabelDemo2
+PRODUCT_BUNDLE_IDENTIFIER = com.whiteLabel.demo2
+
+// User defined
+WL_BUNDLE_DISPLAY_NAME = Demo 2
+WL_API_BASE_URL = https:/$()/api.example.com2

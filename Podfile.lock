@@ -1,0 +1,37 @@
+PODS:
+  - CustomLogger (1.0.0)
+  - GoogleMaps (5.0.0):
+    - GoogleMaps/Maps (= 5.0.0)
+  - GoogleMaps/Base (5.0.0)
+  - GoogleMaps/Maps (5.0.0):
+    - GoogleMaps/Base
+  - LaunchDarkly (5.4.1):
+    - LaunchDarkly/Core (= 5.4.1)
+  - LaunchDarkly/Core (5.4.1):
+    - LDSwiftEventSource (= 1.2.1)
+  - LDSwiftEventSource (1.2.1)
+
+DEPENDENCIES:
+  - CustomLogger (from `./PrivateFrameworks/CustomLogger`)
+  - GoogleMaps
+  - LaunchDarkly
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - LaunchDarkly
+    - LDSwiftEventSource
+
+EXTERNAL SOURCES:
+  CustomLogger:
+    :path: "./PrivateFrameworks/CustomLogger"
+
+SPEC CHECKSUMS:
+  CustomLogger: 8ad504e248925922b84f61748f51387e0631a165
+  GoogleMaps: 600e5e69bdf7f4ed7cac4d6aa96c7ec08a5aa254
+  LaunchDarkly: a25faa5e05ab7f9bc3368a212760baf529228b6d
+  LDSwiftEventSource: 4f48b8d123032c64073a0fabc2d2ce60da27f820
+
+PODFILE CHECKSUM: 1582bc23cce013946cb126cd6990d0d025ef3168
+
+COCOAPODS: 1.10.1
